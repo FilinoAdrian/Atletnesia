@@ -1,0 +1,16 @@
+.appfooter{
+  background-color: #444444;
+  padding: 50px 0;
+  color: white;
+  align-content: center;
+}
+
+.social-media-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.appfooter h5, h6 {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bold;
+}

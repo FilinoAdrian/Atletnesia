@@ -1,0 +1,63 @@
+.tagline {
+  background-image: url(../../static/image/artboard-1.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  margin-top: -60px;
+  height: 720px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.tagline-title {
+  max-width: 575px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.tagline-title h1 {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bold;
+  color: #707070;
+  font-size: 4em;
+  line-height: 84px;
+  margin-bottom: 40px;
+}
+
+.register-btn {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  background-color: #ff9f27;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 2% 10%;
+  letter-spacing: 5px;
+  border: 0;
+  border-radius: 20px;
+}
+
+.register-btn:hover {
+  cursor: pointer;
+  background-color: #eb8b16;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) { 
+
+  .tagline-title h1 {
+    color: #fff;
+    text-shadow: 1px 1px #707070;
+    font-size: 3em;
+    line-height: 60px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .register-btn {
+    font-size: 1em;
+    margin: 0 auto;
+  }
+
+}
